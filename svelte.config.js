@@ -9,13 +9,17 @@ const config = {
 	vitePlugin: {
 		inspector: true,   
 	},
+	
 	kit: {
+		paths:{
+			base: "/portfolio/build"
+		},
         adapter: adapter({
             // default options are shown. On some platforms
             // these options are set automatically — see below
             pages: 'build',
             assets: 'build',
-            fallback: '200.html',
+            fallback: 'index.html',
             precompress: false,
             strict: true
         })

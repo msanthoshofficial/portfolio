@@ -1,5 +1,6 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-
+<script>
+	export const prerender = true;
+</script>
 <div class="container h-full mx-auto flex justify-center pt-[12rem]">
 		
 		<div class="grid grid-cols-1 gap-4">
