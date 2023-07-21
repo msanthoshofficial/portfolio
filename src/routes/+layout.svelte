@@ -7,7 +7,7 @@
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
-	let value: boolean = false;
+	export const prerender = true;
 </script>
 
 <!-- App Shell -->
@@ -22,7 +22,7 @@
 				<LightSwitch />
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://discord.gg/EXqV7W8MtY"
+					href="https://discord.gg/UnR4H2Bq"
 					target="_blank"
 					rel="noreferrer"
 				>
@@ -30,15 +30,7 @@
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://twitter.com/SkeletonUI"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Twitter
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/skeletonlabs/skeleton"
+					href="https://github.com/msanthoshofficial"
 					target="_blank"
 					rel="noreferrer"
 				>
