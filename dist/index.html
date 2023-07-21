@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/portfolio/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="/portfolio/_app/immutable/entry/start.2c82f9b1.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/index.cb53cde0.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/singletons.1fea2e08.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/chunks/index.49191fae.js">
+		<link rel="modulepreload" href="/portfolio/_app/immutable/entry/app.93c4f24b.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="gold-nouveau">
+		<div style="display: contents" class="h-full overflow-hidden">
+			<script>
+				{
+					__sveltekit_ziavde = {
+						assets: "/portfolio",
+						base: "/portfolio",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/portfolio/_app/immutable/entry/start.2c82f9b1.js"),
+						import("/portfolio/_app/immutable/entry/app.93c4f24b.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
