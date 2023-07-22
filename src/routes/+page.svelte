@@ -1,5 +1,6 @@
 <script>
 	export const prerender = true;
+	const dev = process.argv.includes('dev');
 </script>
 <div class="container h-full mx-auto flex justify-center pt-[12rem]">
 		
@@ -12,7 +13,7 @@
 				</div>
 				<figure>
 					<section class="img-bg" />
-					<img src="images/engineer.png" alt="">
+					<img src="{dev ? 'images/engineer.png' : '/portfolio/images/engineer.png'}"  alt="">
 				</figure>
 			</div>
 		
