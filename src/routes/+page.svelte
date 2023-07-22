@@ -13,7 +13,7 @@
 				</div>
 				<figure>
 					<section class="img-bg" />
-					<img src="{dev ? 'images/engineer.png' : '/portfolio/images/engineer.png'}"  alt="">
+					<img src="/portfolio/images/engineer.png"  alt="">
 				</figure>
 			</div>
 		
