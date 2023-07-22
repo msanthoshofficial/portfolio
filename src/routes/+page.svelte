@@ -1,6 +1,6 @@
 <script>
 	export const prerender = true;
-	const dev = process.argv.includes('dev');
+
 </script>
 <div class="container h-full mx-auto flex justify-center pt-[12rem]">
 		
